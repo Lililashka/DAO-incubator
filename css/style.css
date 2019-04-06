@@ -152,8 +152,8 @@ p {
   -ms-transition: left 0.1s ease;
   -o-transition: left 0.1s ease;
   transition: left 0.1s ease;
-  background: lightgrey;
-  color: black;
+  background: #fffcf4;
+  color: #443737;
   cursor: pointer;
   height: 100vh;
   /* this -26rem might be a bit hacky */
@@ -226,7 +226,7 @@ p {
 .nav-toggle.expanded .nav-toggle-bar { background: transparent; }
 
 .nav-toggle.expanded .nav-toggle-bar::after, .nav-toggle.expanded .nav-toggle-bar::before {
-  background: black;
+  background: #443737;
   margin-top: 0;
   
 }
@@ -243,6 +243,18 @@ p {
   transform: rotate(-45deg);
 }
 
+a:link {
+    color: #443737;
+}
+
+a:hover {
+  color: #B29C9C !important;
+}
+
+a:visited, a:link, a:active {
+    text-decoration: none;
+    color: #443737;
+}
 
 
 
