@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <title>DAO Incubator</title>
     <script>
-        
+    
+
     document.addEventListener("DomContentLoaded", function() {   
     (function () {
             var hamburger = {
@@ -22,18 +23,25 @@
                     this.navToggle.classList.toggle('expanded');
                     this.nav.classList.toggle('expanded');
                 }
+
             };
         
             hamburger.navToggle.addEventListener('click', function (e) {
                 hamburger.doToggle(e);
+                
             });
             hamburger.nav.addEventListener('click', function (e) {
                 hamburger.doToggle(e);
+                
             });
+            
             hamburger.nav.querySelector('#navList').addEventListener('click', function (e) {
               e.stopPropagation();
+              
             });
+            
         }());
+        
     });
     </script>
 </head>
