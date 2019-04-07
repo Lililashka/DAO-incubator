@@ -164,6 +164,9 @@ p {
   width: 17rem;
   z-index: 1;
   transition: 0.8s;
+  -webkit-box-shadow: -4px 1px 17px -2px rgba(0,0,0,0.13);
+  -moz-box-shadow: -4px 1px 17px -2px rgba(0,0,0,0.13);
+  box-shadow: -4px 1px 17px -2px rgba(0,0,0,0.13);
 }
 
 .nav.expanded { 
@@ -193,7 +196,7 @@ p {
   right: 3rem;
   position: fixed;
   top: 2rem;
-  width: 2rem;
+  width: 5rem;
   z-index: 2;
   
 }
@@ -206,14 +209,14 @@ p {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  -webkit-transition: all 0.7s ease;
-  -moz-transition: all 0.7s ease;
-  -ms-transition: all 0.7s ease;
-  -o-transition: all 0.7s ease;
-  transition: all 0.7s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   background: #443737;
   content: '';
-  height: 0.2rem;
+  height: 0.1rem;
   width: 100%;
 }
 
@@ -229,18 +232,6 @@ p {
   background: #443737;
   margin-top: 0;
   
-}
-
-.nav-toggle.expanded .nav-toggle-bar::after {
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.nav-toggle.expanded .nav-toggle-bar::before {
-  -ms-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
 }
 
 a:link {
