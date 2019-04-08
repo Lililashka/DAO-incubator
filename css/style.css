@@ -36,7 +36,7 @@ p {
 /* sections */
 
 .main {
-    background-color: rgb(255, 252, 244);
+    background-color: rgb(255, 255, 255, 0.95);
     margin-left: 20px;
     margin-right: 20px;
 
@@ -52,6 +52,10 @@ p {
     text-align: center;
 }
 
+.little-hero h1{
+	font-size: 5rem
+}
+
 .main-img {
   width: 30%;
   margin-top: 5%;
@@ -63,12 +67,13 @@ p {
 
 .btn-main {
     background-color: #443737;
-    width: 280px;
+    width: 180px;
     font-family: 'Work Sans', sans-serif !important;
     font-weight: 800;
     color: #fffcf4;
     margin-top: 3rem;
     transition: 0.7s;
+    padding: 10px;
 
 
 }
