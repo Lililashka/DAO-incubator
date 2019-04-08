@@ -52,6 +52,10 @@ p {
     text-align: center;
 }
 
+.little-hero h1{
+	font-size: 5rem
+}
+
 .main-img {
   width: 30%;
   margin-top: 5%;
