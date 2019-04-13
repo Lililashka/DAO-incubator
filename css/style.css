@@ -36,7 +36,7 @@ p {
 /* sections */
 
 .main {
-    background-color: #f0f0f0;
+    background-color: #efefef;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -91,7 +91,7 @@ p {
     z-index: 10;
     top: 10px;
     right: 20px;
-    background: #f0f0f0;
+    background: #efefef;
     padding-top: 5px;
   }
 
@@ -127,7 +127,7 @@ p {
     opacity:0;
     transition:visibility 0.3s linear,opacity 0.3s linear;
     width: 130px;
-    background-color: #f0f0f0;
+    background-color: #efefef;
     color: #B29C9C;
     text-align: right;
     padding: 5px 0;
@@ -157,7 +157,7 @@ p {
   -ms-transition: left 0.1s ease;
   -o-transition: left 0.1s ease;
   transition: left 0.1s ease;
-  background: #fffcf4;
+  background: #efefef;
   color: #443737;
   cursor: pointer;
   height: 100vh;
