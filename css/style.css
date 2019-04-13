@@ -36,7 +36,7 @@ p {
 /* sections */
 
 .main {
-    background-color: rgb(255, 255, 255, 0.95);
+    background-color: #f0f0f0;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -91,7 +91,7 @@ p {
     z-index: 10;
     top: 10px;
     right: 20px;
-    background: #fffcf4;
+    background: #f0f0f0;
     padding-top: 5px;
   }
 
@@ -127,7 +127,7 @@ p {
     opacity:0;
     transition:visibility 0.3s linear,opacity 0.3s linear;
     width: 130px;
-    background-color: #fffcf4;
+    background-color: #f0f0f0;
     color: #B29C9C;
     text-align: right;
     padding: 5px 0;
