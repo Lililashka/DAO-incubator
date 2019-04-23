@@ -33,6 +33,11 @@ p {
 
 }
 
+.desc a {
+	text-decoration: underline;
+
+}
+
 /* sections */
 
 .main {
