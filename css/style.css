@@ -24,7 +24,7 @@ h3 {
 
 p {
     font-family: 'Work Sans', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     color: rgb(71, 65, 65);
 }
 
@@ -317,11 +317,24 @@ a:visited, a:link, a:active {
 }
   
 
-
-
 @media only screen and (min-width: 601px) {
   .nav-mobile {
     display: none;
   }
   
+}
+
+
+@media only screen and (min-width: 992px){
+  .container {
+    width: 740px;
+  }
+}
+
+
+@media only screen and (min-width: 1200px){
+  .container {
+    width: 800px;
+  }
+
 }
