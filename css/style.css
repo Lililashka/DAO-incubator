@@ -24,12 +24,17 @@ h3 {
 
 p {
     font-family: 'Work Sans', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     color: rgb(71, 65, 65);
 }
 
 .desc {
     padding: 1.5rem;
+
+}
+
+.desc a {
+	text-decoration: underline !important;
 
 }
 
@@ -309,14 +314,39 @@ a:visited, a:link, a:active {
     width: 60%;
 
   }
+
+  #navList {
+    margin-top: 50px;
+  }
+
+  .nav-toggle {
+    right: 2.5rem;
+  }
 }
   
-
-
 
 @media only screen and (min-width: 601px) {
   .nav-mobile {
     display: none;
   }
+  #navList {
+    margin-top: 50px;
+  }
   
+}
+
+
+@media only screen and (min-width: 992px){
+  .container {
+    width: 740px;
+  }
+  
+}
+
+
+@media only screen and (min-width: 1200px){
+  .container {
+    width: 800px;
+  }
+
 }
